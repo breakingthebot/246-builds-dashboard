@@ -1,12 +1,12 @@
 {
-  "totalBuilds": 41,
+  "totalBuilds": 54,
   "totalCategories": 10,
-  "totalTechnologies": 40,
-  "deepBuilds": 27,
+  "totalTechnologies": 53,
+  "deepBuilds": 40,
   "expandedBuilds": 11,
   "basicBuilds": 0,
   "byCategory": {
-    "Web Frontend": 15,
+    "Web Frontend": 28,
     "CLI Tools": 6,
     "Mobile Apps": 4,
     "Vue 3": 3,
@@ -18,21 +18,21 @@
     "Nuxt 3": 1
   },
   "byDepth": {
+    "Deep": 40,
     "Standard": 3,
-    "Expanded": 11,
-    "Deep": 27
+    "Expanded": 11
   },
   "topTechnologies": {
     "Angular": 2,
-    "Nuxt.js": 1,
-    "Pinia": 1,
-    "Vue Router": 1,
-    "Vue 3 core": 1,
-    "Ionic": 1,
-    "NgRx": 1,
-    "Angular Material": 1,
-    "Angular (RxJS)": 1,
-    "React Native (Expo)": 1
+    "Styled Components": 1,
+    "CSS Modules": 1,
+    "Tailwind CSS": 1,
+    "Sass/SCSS": 1,
+    "Pure CSS": 1,
+    "Qwik": 1,
+    "Lit": 1,
+    "Alpine.js": 1,
+    "HTMX": 1
   },
-  "lastUpdated": "2026-07-31T08:42:19.164328+00:00"
+  "lastUpdated": "2026-07-31T16:15:05.575926+00:00"
 }
