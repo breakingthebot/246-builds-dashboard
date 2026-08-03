@@ -22,6 +22,13 @@ VALID_CATEGORIES = {
     "Desktop & Console Apps",
     "Libraries & Packages",
     "Mobile Apps",
+    "Vue 3",
+    "Styling & Design Systems",
+    "Animation & 3D",
+    "Visualization & Data",
+    "Backend & APIs (Node/TS)",
+    "Serverless & Edge",
+    "Backend - Python",
 }
 
 DATE_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
