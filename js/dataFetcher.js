@@ -1,6 +1,6 @@
 /**
  * Data Fetcher Module
- * Fetches build data from the 286-builds index repo and normalizes it
+ * Fetches build data from the 246-builds index repo and normalizes it
  * into the shape the rest of the dashboard expects.
  */
 
@@ -8,7 +8,7 @@ async function getAllBuildsData(enrichData = false) {
     console.log('📡 Fetching builds data...');
 
     try {
-        const url = 'https://raw.githubusercontent.com/breakingthebot/286-builds/main/builds.json';
+        const url = 'https://raw.githubusercontent.com/breakingthebot/246-builds/main/builds.json';
         const response = await fetch(url, { cache: 'no-cache', mode: 'cors' });
 
         if (!response.ok) {

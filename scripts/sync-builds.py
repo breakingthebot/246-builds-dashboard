@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Auto-sync script for 286 Builds Dashboard
-Fetches the latest builds.json from breakingthebot/286-builds and updates dashboard stats.
+Auto-sync script for 246 Builds Dashboard
+Fetches the latest builds.json from breakingthebot/246-builds and updates dashboard stats.
 """
 
 import json
@@ -12,7 +12,7 @@ import urllib.error
 from datetime import datetime, timezone
 from collections import Counter
 
-SOURCE_URL = "https://raw.githubusercontent.com/breakingthebot/286-builds/main/builds.json"
+SOURCE_URL = "https://raw.githubusercontent.com/breakingthebot/246-builds/main/builds.json"
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "builds.json")
 STATS_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "stats.json")
 
@@ -22,7 +22,7 @@ def fetch_builds(url: str) -> list:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "286-builds-dashboard-sync/1.0 (github.com/breakingthebot/286-builds-dashboard)"
+            "User-Agent": "246-builds-dashboard-sync/1.0 (github.com/breakingthebot/246-builds-dashboard)"
         },
     )
     try:
@@ -90,7 +90,7 @@ def save_json(path: str, data) -> None:
 
 
 def main() -> int:
-    print("🔄 Syncing builds.json from 286-builds...")
+    print("🔄 Syncing builds.json from 246-builds...")
 
     # Fetch remote data
     remote_builds = fetch_builds(SOURCE_URL)

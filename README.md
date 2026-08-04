@@ -2,11 +2,11 @@
 
 An advanced interactive dashboard that visualizes the progression of 246 daily coding builds across completed projects.
 
-🌐 Live site: https://breakingthebot.github.io/286-builds-dashboard/
+🌐 Live site: https://breakingthebot.github.io/246-builds-dashboard/
 
 ## 📊 Overview
 
-This dashboard fetches build metadata from the [286-builds](https://github.com/breakingthebot/286-builds) repository and transforms it into beautiful, interactive visualizations showing:
+This dashboard fetches build metadata from the [246-builds](https://github.com/breakingthebot/246-builds) repository and transforms it into beautiful, interactive visualizations showing:
 
 - **Language Distribution** - Which programming languages are used most (3D pie chart)
 - **Build Timeline** - When each build was completed (animated heatmap)
@@ -21,7 +21,7 @@ This dashboard fetches build metadata from the [286-builds](https://github.com/b
 Data Flow:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-286-builds repo (builds.json)
+246-builds repo (builds.json)
     ↓
 js/dataFetcher.js
     ├─ fetchBuildsData() - Fetch from GitHub
@@ -53,7 +53,7 @@ User sees beautiful dashboard! ✨
 ### File Structure
 
 ```
-286-builds-dashboard/
+246-builds-dashboard/
 ├── README.md                 # This file
 ├── index.html               # Main dashboard HTML
 ├── css/
@@ -85,8 +85,8 @@ User sees beautiful dashboard! ✨
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/breakingthebot/286-builds-dashboard.git
-   cd 286-builds-dashboard
+   git clone https://github.com/breakingthebot/246-builds-dashboard.git
+   cd 246-builds-dashboard
    ```
 
 2. **Open in browser**
@@ -108,7 +108,7 @@ This project is configured for GitHub Pages project-site hosting:
 - **Source**: Deploy from branch
 - **Branch**: `main`
 - **Folder**: `/` (root)
-- **Live URL**: https://breakingthebot.github.io/286-builds-dashboard/
+- **Live URL**: https://breakingthebot.github.io/246-builds-dashboard/
 
 Because `index.html` is in the repository root and all CSS/JS links use relative paths (`css/...`, `js/...`), the site deploys automatically on every push to `main`.
 
@@ -330,7 +330,7 @@ This is a personal learning project. Feel free to:
 
 ## 🔗 Related
 
-- **286 Builds Repository**: https://github.com/breakingthebot/286-builds
+- **246 Builds Repository**: https://github.com/breakingthebot/246-builds
 - **Plotly.js Docs**: https://plotly.com/javascript/
 - **D3.js Docs**: https://d3js.org/
 
@@ -344,7 +344,7 @@ MIT - Feel free to use this project for learning and personal use.
 - Check browser console (F12) for errors
 - Ensure you have internet connection
 - Try refreshing page
-- 286-builds repo might be temporarily unavailable
+- 246-builds repo might be temporarily unavailable
 
 ### Charts don't render
 - Check console for JavaScript errors
@@ -377,4 +377,4 @@ Potential improvements:
 
 ---
 
-**Happy exploring!** 🚀 Open the dashboard and watch your 286 builds come to life in beautiful visualizations.
+**Happy exploring!** 🚀 Open the dashboard and watch your 246 builds come to life in beautiful visualizations.

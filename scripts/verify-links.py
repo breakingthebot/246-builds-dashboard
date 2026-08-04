@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Link Verifier for 286 Builds Dashboard
+Link Verifier for 246 Builds Dashboard
 Tests all repo_url links in builds.json, checks HTTP status, and verifies README.md existence.
 """
 
@@ -28,7 +28,7 @@ def check_url(url: str) -> tuple[bool, int, str]:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "286-builds-dashboard-link-checker/1.0 (github.com/breakingthebot/286-builds-dashboard)"
+            "User-Agent": "246-builds-dashboard-link-checker/1.0 (github.com/breakingthebot/246-builds-dashboard)"
         },
     )
     try:

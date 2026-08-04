@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Metadata Validator for 286 Builds Dashboard
+Metadata Validator for 246 Builds Dashboard
 Validates builds.json for required fields, date formats, depth values, and category consistency.
 """
 

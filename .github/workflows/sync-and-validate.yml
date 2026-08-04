@@ -28,7 +28,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Sync builds.json from 286-builds
+      - name: Sync builds.json from 246-builds
         run: python3 scripts/sync-builds.py
 
       - name: Commit updated data if changed
@@ -41,7 +41,7 @@ jobs:
             echo "No data changes to commit"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "chore: sync builds.json from 286-builds [skip ci]"
+            git commit -m "chore: sync builds.json from 246-builds [skip ci]"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi

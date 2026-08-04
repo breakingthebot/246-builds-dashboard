@@ -2,7 +2,7 @@
  * Main Dashboard Orchestration
  * 
  * Controls the entire dashboard lifecycle:
- * 1. Fetch data from 286-builds repo
+ * 1. Fetch data from 246-builds repo
  * 2. Process and aggregate data
  * 3. Render visualizations
  * 4. Handle errors and loading states
@@ -260,7 +260,7 @@ function exportDataAsJSON() {
     const link = document.createElement('a');
     
     link.href = url;
-    link.download = `286-builds-dashboard-${new Date().toISOString().split('T')[0]}.json`;
+    link.download = `246-builds-dashboard-${new Date().toISOString().split('T')[0]}.json`;
     link.click();
     
     URL.revokeObjectURL(url);
@@ -306,7 +306,7 @@ function exportStatsAsCSV() {
     const link = document.createElement('a');
     
     link.href = url;
-    link.download = `286-builds-stats-${new Date().toISOString().split('T')[0]}.csv`;
+    link.download = `246-builds-stats-${new Date().toISOString().split('T')[0]}.csv`;
     link.click();
     
     URL.revokeObjectURL(url);
